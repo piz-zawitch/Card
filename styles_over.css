@@ -1,0 +1,86 @@
+.cards{
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.card_content{
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 230px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+    pointer-events: auto;
+    
+}
+.card_content:hover {
+    transform: translateY(-20px);
+    filter: blur(2px) brightness(0.7);
+}
+    
+
+.tite{
+    text-align: center;
+    color: black;
+}
+
+.labasan {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(8px) brightness(0.5);
+    background: rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.popout {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    padding: 32px 40px;
+    min-width: 300px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+
+.popout_desc {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 24px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    border-radius: 16px;
+}
+
+.closee{
+border:none;
+  background:black;
+  color:white;
+  font-size:20px;
+  font-weight:bold;
+  border-radius:50%;
+  width:30px;
+  height:30px;
+  text-decoration:none; 
+  color:white;
+  text-align: center;
+}
